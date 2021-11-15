@@ -1,0 +1,22 @@
+/*Hide Streamlit Elements*/
+#MainMenu {visibility: hidden;}
+header {visibility: hidden;}
+footer {visibility: hidden;}
+
+/*Draw Model Border*/
+div[data-testid="stBlock"]:nth-child(4) {
+    border: 2px solid purple;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Draw Analysis Border*/
+div[data-testid="stBlock"]:nth-child(5) {
+    border: 2px solid purple;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
