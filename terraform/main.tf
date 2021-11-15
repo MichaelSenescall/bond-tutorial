@@ -6,7 +6,7 @@ terraform {
       name = "bond-tutorial"
     }
   }
-  required_providers = {
+  required_providers {
     heroku = {
       source  = "heroku/heroku"
       version = "4.6.0"
